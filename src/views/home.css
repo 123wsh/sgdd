@@ -1,0 +1,136 @@
+.wode{
+background-color: #eee;
+height:1000px
+}
+/* tabbar样式 */
+.iconfont {
+font-size: 1.5rem;
+color: #111;
+}
+.mint-tabbar > .mint-tab-item.is-selected {
+color: #111 !important;
+}
+.mint-tab-item-label {
+line-height: 1.2;
+}
+/* 登录版块div */
+.logindiv{
+width: 80%;
+margin: 0 auto;
+}
+/* 升级会员 */
+.huiyuan{
+width: 90%;
+display: flex;
+display: -webkit-flex;
+margin: 0 auto;
+background-color: #fff;
+border-radius: 10px;
+padding: 10px;
+color: darkgoldenrod;
+font-size: 0.95rem;
+padding: 10px;
+box-shadow:0px 0px 5px -1px #aaa;
+}
+.huiyuan1{
+flex: 2;
+}
+.huiyuan2{
+flex:1;
+background: navajowhite;
+border-radius: 50px;
+height: 30px;
+text-align: center;
+padding-top: 10px;
+margin-top: 5px;
+}
+.huiyuan1>:nth-child(1){
+font-size: 1.3rem;
+}
+/* 绑定手机 */
+.bangdingshouji{
+width: 90%;
+display: flex;
+display: -webkit-flex;
+margin: 0 auto;
+background-color: #fff;
+border-radius: 10px;
+padding: 15px 10px 10px 10px;
+color: darkgoldenrod;
+font-size: 0.95rem;
+box-shadow:0px 0px 5px -1px #aaa;
+}
+.bangdingshouji>:nth-child(1){
+color: rgb(29, 65, 112);
+}
+.bangdingshouji>:nth-child(2){
+    margin-left: 40px;
+    border-radius: 2px;
+    padding: 3px 12px;
+    color: rgb(218, 93, 44);
+    border: 1px solid rgb(218, 93, 44);
+}
+.dingdan{
+    width: 93%;
+margin: 0 auto;
+background-color: #fff;
+border-radius: 10px;
+font-size: 0.95rem;
+box-shadow:0px 0px 5px -1px #aaa;
+}
+.dingdan1{
+    border-bottom: 1px solid rgb(214, 203, 203);
+    padding: 15px 10px 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+}
+.dingdan1>:nth-child(2){
+    color: #aaa;
+}
+.dingdan1{
+padding: 15px 10px 10px 10px;
+
+}
+.dingdan2{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    padding: 10px 20px 10px 30px;
+    color: #444;
+}
+.dingdan2 p{
+    margin-left: -8px;
+}
+/* 我的管理 */
+.wodeguanli{
+    width: 93%;
+    margin: 0 auto;
+    background-color: #fff;
+    font-size: 0.95rem;
+    box-shadow:0px 0px 5px -1px #aaa;
+    border-radius: 10px !important;
+
+}
+.wodeguanli>:not(:first-child){
+    border-top:1px solid rgb(214, 203, 203);
+}
+.wodeguanli1{
+    border-radius: 10px !important;
+
+}
+.wodeguanli5{
+    border-radius:0px 0px 10px 10px !important;
+}
+.wodeguanli6{
+    width: 93%;
+    margin: 0 auto;
+    background-color: #fff;
+    font-size: 0.95rem;
+    box-shadow:0px 0px 5px -1px #aaa;
+    border-radius: 10px !important;
+}
+
+
+
+

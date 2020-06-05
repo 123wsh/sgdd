@@ -6,6 +6,11 @@ import store from './store'
 import MintUI from 'mint-ui';
 //导入mintUI的CSS
 import 'mint-ui/lib/style.min.css'
+import axios from 'axios'
+
+axios.defaults.baseURL='http://127.0.0.1:3307';
+Vue.prototype.axios = axios;
+Vue.config.productionTip = false
 
 //使用mintUI
 Vue.use(MintUI)
