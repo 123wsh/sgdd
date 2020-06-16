@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <router-view></router-view>
+    <my-construct></my-construct> 
   </div>
 </template>
 

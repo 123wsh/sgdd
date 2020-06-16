@@ -7,8 +7,11 @@ import MintUI from 'mint-ui';
 //导入mintUI的CSS
 import 'mint-ui/lib/style.min.css'
 import axios from 'axios'
+// 全局组件construct
+import MyConstruct from "./components/construct.vue"
+Vue.component("my-construct",MyConstruct)
 
-axios.defaults.baseURL='http://127.0.0.1:3307';
+axios.defaults.baseURL='http://127.0.0.1:4000';
 Vue.prototype.axios = axios;
 Vue.config.productionTip = false
 

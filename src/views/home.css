@@ -17,6 +17,14 @@ line-height: 1.2;
 .logindiv{
 width: 80%;
 margin: 0 auto;
+position: relative;
+
+}
+.mint-msgbox-cancel:active{
+  background-color:#eee !important;
+} 
+.mint-msgbox-btn:active{
+  background-color: #eee !important;
 }
 /* 升级会员 */
 .huiyuan{
